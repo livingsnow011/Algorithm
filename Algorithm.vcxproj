@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\solution.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\이것이 취업을 위한 코딩테스트다\CHAPTER3_그리디\3-1.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\이것이 취업을 위한 코딩테스트다\CHAPTER3_그리디\3-2.cpp" />
+    <ClCompile Include="src\이것이 취업을 위한 코딩테스트다\CHAPTER3_그리디\3-3.cpp" />
+    <ClCompile Include="src\이것이 취업을 위한 코딩테스트다\CHAPTER3_그리디\3-4.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -85,9 +95,10 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>6031</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

@@ -1,8 +1,8 @@
 #include<iostream>
+#include"solution.h"
 using namespace std;
 
 int main() {
-	cout << "hello\n";
+	c3_4();
 	return 0;
-
 }
