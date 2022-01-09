@@ -1,8 +1,12 @@
 package hello.core.member;
 
+import org.springframework.stereotype.Component;
+
 import java.util.HashMap;
 import java.util.Map;
 
+
+@Component
 public class MemoryMemberRepository implements MemberRepository{
 
     //static을 안 붙이면 save, find 인스턴스가 달라 널 에러남
