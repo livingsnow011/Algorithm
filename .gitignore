@@ -1,5 +1,5 @@
 gradle/
-*.properties
+./**/*.properties
 gradlew
 *.bat
 settings.gradle
